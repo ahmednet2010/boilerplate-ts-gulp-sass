@@ -1,0 +1,32 @@
+{
+  "name": "boilerplate-ts-gulp-sass",
+  "version": "1.0.0",
+  "description": "boilerplate with gulp and typescript sass with one file js ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"gulp"
+  },
+  "author": "ahmednet2020",
+  "license": "ISC",
+  "browserslist": [
+    "last 5 versions"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "autoprefixer": "^10.4.2",
+    "babel-preset-minify": "^0.5.1",
+    "browserify": "^17.0.0",
+    "cssnano": "^5.0.17",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-load-plugins": "^2.0.7",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.49.8",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
